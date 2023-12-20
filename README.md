@@ -19,10 +19,9 @@ We present GBMSeg, a training-free framework that automates the segmentation and
 ### Setup 
 
 ### Generate prompt
-
 ```
-cd HSNet 
-python Eval.py
+cd GBMSeg 
+python generative_prompt.py
 ```
 
 ## Acknowledgement
