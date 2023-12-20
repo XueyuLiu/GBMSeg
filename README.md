@@ -25,4 +25,4 @@ python generative_prompt.py
 ```
 
 ## Acknowledgement
-Thanks [DINOv2](https://github.com/facebookresearch/dinov2), [SAM](https://github.com/facebookresearch/segment-anything). for serving as building blocks of GBMSeg.
+Thanks [DINOv2](https://github.com/facebookresearch/dinov2), [SAM](https://github.com/facebookresearch/segment-anything), [Matcher](https://github.com/aim-uofa/Matcher). for serving as building blocks of GBMSeg.
