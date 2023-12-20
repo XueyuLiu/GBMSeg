@@ -3,13 +3,13 @@
 
 
 <p align="center">
-<img width="900" alt="structure" src="img/structure.png">
+<img width="800" alt="structure" src="img/structure.png">
 </p>
 
 We present GBMSeg, a training-free framework that automates the segmentation and measurement of the glomerular basement membrane (GBM) in TEM using only one-shot reference images. GBMSeg leverages the robust feature matching capabilities of pretrained foundation models (PFMs) to generate initial prompts, designs novel prompting engineering for optimized prompting methods, and utilizes a class-agnostic segmentation model to obtain the final segmentation result. Additionally, we propose a thickness measurement method based on the segmentation mask to quantify pathological indicators and analyze and predict results by integrating clinical indicators with diagnostic outcomes. 
 
 <p align="center">
-<img width="900" alt="ablation" src="img/ablation.png">
+<img width="800" alt="ablation" src="img/ablation.png">
 </p>
 
 ## To do 
