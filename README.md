@@ -41,6 +41,7 @@ python automatic_prompt_engineering.py
 
 ### Segmentation 
 ```
+mkdir GBMSeg/results
 cd GBMSeg/segmenting-anything
 python segment.py
 ```
