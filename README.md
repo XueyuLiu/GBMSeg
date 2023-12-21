@@ -12,11 +12,20 @@ We present GBMSeg, a training-free framework that automates the segmentation and
 <img width="800" alt="ablation" src="img/ablation.png">
 </p>
 
-## To do 
-- [ ] Release code
-
 ## Usage 
 ### Setup 
+
+- Cuda 12.0
+- Python 3.9.18
+- PyTorch 2.0.0
+
+
+### Datasets
+    ../                          # parent directory
+    ├── ./data                   # current (project) directory
+    │   ├── reference_image      # the one-shot reference image
+    │   ├── reference_mask       # the one-shot reference mask
+    │   ├── target_image         # testing images
 
 ### Generate prompt
 ```
