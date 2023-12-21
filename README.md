@@ -22,7 +22,7 @@ We present GBMSeg, a training-free framework that automates the segmentation and
 
 ### Datasets
     ../                          # parent directory
-    ├── ./data                   # current (project) directory
+    ├── ./data                   # data path
     │   ├── reference_image      # the one-shot reference image
     │   ├── reference_mask       # the one-shot reference mask
     │   ├── target_image         # testing images
