@@ -20,8 +20,20 @@ We present GBMSeg, a training-free framework that automates the segmentation and
 
 ### Generate prompt
 ```
-cd GBMSeg 
-python generative_prompt.py
+cd GBMSeg/feature_matching
+python generate_prompt.py
+```
+
+### Automatic prompt engineering
+```
+cd GBMSeg/tools
+python automatic prompt engineering.py
+```
+
+### Segmentation 
+```
+cd GBMSeg/segmenting anything
+python segment.py
 ```
 
 ## Acknowledgement
