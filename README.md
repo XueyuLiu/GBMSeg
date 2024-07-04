@@ -5,6 +5,9 @@
 <sup>3</sup>[Shanxi Provincial People's Hospital](https://www.sxsrmyy.com/)
 
 
+### This work has been accepted by MICCAI2024!
+
+
 We present GBMSeg, a training-free framework that automates the segmentation and measurement of the glomerular basement membrane (GBM) in TEM using only one-shot reference images. GBMSeg leverages the robust feature matching capabilities of pretrained foundation models (PFMs) to generate initial prompts, designs novel prompting engineering for optimized prompting methods, and utilizes a class-agnostic segmentation model to obtain the final segmentation result. 
 
 <p align="center">
