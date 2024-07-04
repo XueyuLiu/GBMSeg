@@ -5,7 +5,7 @@
 <sup>3</sup>[Shanxi Provincial People's Hospital](https://www.sxsrmyy.com/)
 
 
-### This work has been accepted by MICCAI2024!
+### 🚀🚀This work has been accepted by MICCAI2024!🚀🚀
 
 
 We present GBMSeg, a training-free framework that automates the segmentation and measurement of the glomerular basement membrane (GBM) in TEM using only one-shot reference images. GBMSeg leverages the robust feature matching capabilities of pretrained foundation models (PFMs) to generate initial prompts, designs novel prompting engineering for optimized prompting methods, and utilizes a class-agnostic segmentation model to obtain the final segmentation result. 
@@ -47,6 +47,22 @@ mkdir GBMSeg/results
 cd GBMSeg/segmenting-anything
 python segment.py
 ```
+
+##  Citation
+
+
+If you find this project useful in your research, please consider citing:
+
+
+```BibTeX
+@article{liu2024feature,
+  title={Feature-prompting GBMSeg: One-Shot Reference Guided Training-Free Prompt Engineering for Glomerular Basement Membrane Segmentation},
+  author={Liu, Xueyu and Shi, Guangze and Wang, Rui and Lai, Yexin and Zhang, Jianan and Sun, Lele and Yang, Quan and Wu, Yongfei and Li, MIng and Han, Weixia and others},
+  journal={arXiv preprint arXiv:2406.16271},
+  year={2024}
+}
+```
+
 
 ## Acknowledgement
 Thanks [DINOv2](https://github.com/facebookresearch/dinov2), [SAM](https://github.com/facebookresearch/segment-anything). for serving as building blocks of GBMSeg.
