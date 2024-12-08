@@ -45,7 +45,7 @@ def main():
     model_seg = loading_seg('vit_l', device)
 
     # Dataset and paths
-    dataset_name = 'GBM'
+    dataset_name = 'DATASET_NAME'
     image_size = 560
     image_prompt_dir = os.path.join(r'./data', dataset_name, 'reference_images')
     mask_path = os.path.join(r'./data', dataset_name, 'reference_masks')
