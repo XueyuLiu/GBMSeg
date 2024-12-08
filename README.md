@@ -1,4 +1,4 @@
-# Feature-prompting GBMSeg: One Shot Reference Guided Training-Free Feature Matching for Glomerular Basement Membrane Segmentation and Quantification
+# Feature-prompting GBMSeg: One-Shot Reference Guided Training-Free Prompt Engineering for Glomerular Basement Membrane Segmentation
 <br>**[Xueyu Liu](https://scholar.google.com.hk/citations?user=jeatLqIAAAAJ&hl=zh-CN), Guangze Shi, Rui Wang, Yexin Lai, Jianan Zhang, Lele Sun, Quan Yang, Yongfei Wu*, Weixia Han, Ming Li, and Wen Zheng**<br>
 <sup>1</sup>[Taiyuan University of Technology](https://www.tyut.edu.cn/), &nbsp;
 <sup>2</sup>[The Second Affiliated Hospital of Shanxi Medical University](https://www.sydey.com/)，&nbsp;
