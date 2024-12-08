@@ -25,27 +25,15 @@ We present GBMSeg, a training-free framework that automates the segmentation and
 ### Datasets
     ../                          # parent directory
     ├── ./data                   # data path
-    │   ├── reference_image      # the one-shot reference image
-    │   ├── reference_mask       # the one-shot reference mask
-    │   ├── target_image         # testing images
+    │   ├── reference_images      # the one-shot reference image
+    │   ├── reference_masks       # the one-shot reference mask
+    │   ├── target_images        # testing images
 
-### Generate prompt
+### Usage
 ```
-cd GBMSeg/feature-matching
-python generate_prompt.py
-```
-
-### Automatic prompt engineering
-```
-cd GBMSeg/tools
-python automatic_prompt_engineering.py
+python main.py
 ```
 
-### Segmentation 
-```
-mkdir GBMSeg/results
-cd GBMSeg/segmenting-anything
-python segment.py
 ```
 
 ##  Citation
