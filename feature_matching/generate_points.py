@@ -222,7 +222,7 @@ def generate(mask, image_inner, device, dino,size):
     # self matching
     #filtered_min_indices = self_matching(features, filtered_min_indices, device, dino)
     #filtered_min_indices_back = self_matching(features, filtered_min_indices_back, device, dino)
-    filtered_min_indices_back = torch.cat([ng_indices, filtered_min_indices_back], dim=0)
+    #filtered_min_indices_back = torch.cat([ng_indices, filtered_min_indices_back], dim=0)
 
 
     #filtered_min_indices_back=torch.cat([ng_indices_back, filtered_min_indices_back], dim=0)

@@ -28,7 +28,7 @@ warnings.filterwarnings("ignore")
 def prompt_optimize(features, positive_prompt, negative_prompt, hard_prompt, dis_sp_p, dis_sp_n, dis_sp_hard, dis_ex,
                     device, image, max_contour, model_seg):
     positive_prompt_opt, negative_prompt_opt = APE(positive_prompt, negative_prompt, hard_prompt, dis_sp_p, dis_sp_n,
-                                                   dis_sp_hard, dis_ex, True)
+                                                   dis_sp_hard, dis_ex, False)
     return positive_prompt_opt, negative_prompt_opt, features
 
 
