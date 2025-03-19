@@ -43,11 +43,15 @@ If you find this project useful in your research, please consider citing:
 
 
 ```BibTeX
-@article{liu2024feature,
-  title={Feature-prompting GBMSeg: One-Shot Reference Guided Training-Free Prompt Engineering for Glomerular Basement Membrane Segmentation},
-  author={Liu, Xueyu and Shi, Guangze and Wang, Rui and Lai, Yexin and Zhang, Jianan and Sun, Lele and Yang, Quan and Wu, Yongfei and Li, MIng and Han, Weixia and others},
-  journal={arXiv preprint arXiv:2406.16271},
-  year={2024}
+@InProceedings{Liu_Featureprompting_MICCAI2024,
+        author = { Liu, Xueyu and Shi, Guangze and Wang, Rui and Lai, Yexin and Zhang, Jianan and Sun, Lele and Yang, Quan and Wu, Yongfei and Li, Ming and Han, Weixia and Zheng, Wen},
+        title = { { Feature-prompting GBMSeg: One-Shot Reference Guided Training-Free Prompt Engineering for Glomerular Basement Membrane Segmentation } },
+        booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+        year = {2024},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 15009},
+        month = {October},
+        page = {276 -- 285}
 }
 ```
 
