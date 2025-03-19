@@ -42,7 +42,7 @@ python main.py
 If you find this project useful in your research, please consider citing:
 
 
-```BibTeX
+BibTeX
 @InProceedings{Liu_Featureprompting_MICCAI2024,
         author = { Liu, Xueyu and Shi, Guangze and Wang, Rui and Lai, Yexin and Zhang, Jianan and Sun, Lele and Yang, Quan and Wu, Yongfei and Li, Ming and Han, Weixia and Zheng, Wen},
         title = { { Feature-prompting GBMSeg: One-Shot Reference Guided Training-Free Prompt Engineering for Glomerular Basement Membrane Segmentation } },
@@ -53,7 +53,7 @@ If you find this project useful in your research, please consider citing:
         month = {October},
         page = {276 -- 285}
 }
-```
+
 
 
 ## Acknowledgement
